@@ -10,7 +10,7 @@ class LoginPage {
   
      // Navigate to the application's login page
     async navigate() {
-      await this.page.goto('https://animated-gingersnap-8cf7f2.netlify.app/');
+      await this.page.goto('/');
     }
   
     // Perform login with the given email and password
